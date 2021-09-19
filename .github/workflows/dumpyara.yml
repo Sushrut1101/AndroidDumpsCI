@@ -1,4 +1,4 @@
-name: Dump
+name: Dump Firmware
  
 on:
   push:
@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://ghostmirror.hitesh920.workers.dev/0://Samfw.com_SM-A125F_INS_A125FXXU1BUE4_fac.zip
+  ROM_URL: https://bigota.d.miui.com/V12.5.0.2.RCDCNXM/miui_DANDELION_V12.5.0.2.RCDCNXM_5fa66df2f2_11.0.zip
 
 jobs:
   build:
@@ -29,8 +29,8 @@ jobs:
          working-directory: firmware_dumper
          run: |
               sudo bash setup.sh
-              git config --global user.name "Hitalo"
-              git config --global user.email "40531911+HitaloSama@users.noreply.github.com"
+              git config --global user.name "Sushrut1101"
+              git config --global user.email "guptasushrut@gmail.com"
 
        - name: Setup config envs
          working-directory: firmware_dumper
