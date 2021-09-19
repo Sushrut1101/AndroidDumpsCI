@@ -1,4 +1,4 @@
-name: Dump Firmware
+name: Dump
  
 on:
   push:
